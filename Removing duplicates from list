@@ -1,0 +1,7 @@
+def remove_dup(nums):
+    new_list=[]
+    for i in nums:
+        if i not in new_list:
+            new_list.append(i)
+    return new_list
+print(remove_dup([1,2,2,3,1,4]))
